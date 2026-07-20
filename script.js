@@ -9,7 +9,7 @@
      - Schools.geojson    (points)
      - Banks.geojson      (points)
      - Parks.geojson      (points)
-     - Bus Stops.geojson  (points)
+     - BusStops.geojson  (points)
 
    If your file names differ, only the DATA_FILES object below needs to
    change — nothing else in the app depends on the file names.
@@ -19,20 +19,20 @@
    0. CONFIG
    ------------------------------------------------------------------------- */
 const DATA_FILES = {
-  gn:        'data/Accessibility Index.geojson',
+  gn:        'data/GND_layer_n.geojson',
   Hospitals: 'data/Hospitals.geojson',
   Schools:   'data/Schools.geojson',
   Banks:     'data/Banks.geojson',
   Parks:     'data/Parks.geojson',
-  BusStops:  'data/Bus Stops.geojson'
+  BusStops:  'data/Bus_stops.geojson'
 };
 
 // Field names on the GN polygon layer (edit here if your schema differs)
 const FIELD = {
-  name:        'GN_NAME',
-  population:  'POPULATION',
-  accessibility: 'accessibility_index',
-  priority:    'priority_index'
+  name:        'ADM4_EN',
+  population:  'Colombo_GN_Population_Population',
+  accessibility: 'AI',
+  priority:    'priority_i'
 };
 
 // Colors per service layer + a text glyph used inside the marker
