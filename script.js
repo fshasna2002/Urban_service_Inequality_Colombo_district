@@ -499,7 +499,7 @@ feedbackForm?.addEventListener('submit', async (e) => {
     longitude:   selectedLng
   };
 
-  const submitBtn = feedbackForm.querySelector('.btn-primary');
+ const submitBtn = feedbackForm.querySelector('button[type="submit"]');
   submitBtn.disabled = true;
   submitBtn.textContent = 'Submitting…';
 
