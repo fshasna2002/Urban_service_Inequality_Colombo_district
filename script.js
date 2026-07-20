@@ -65,8 +65,8 @@ const PRIORITY_CLASSES = [
    ------------------------------------------------------------------------- */
 // Replace with your own Supabase project URL + publishable (anon) key.
 // Get these from Project Settings -> API in your Supabase dashboard.
-const SUPABASE_URL = 'YOUR_PROJECT_URL';
-const SUPABASE_KEY = 'YOUR_PUBLISHABLE_KEY';
+const SUPABASE_URL = 'https://ioqykthgbyyyckkncrpx.supabase.co/rest/v1/';
+const SUPABASE_KEY = 'sb_publishable_TeW3UAuQEJtjFi2E0hNArA_tu2DMBzZ';
 
 // Feedback is optional: if no real credentials are set, the app still runs —
 // the panel just shows a friendly message instead of throwing errors.
