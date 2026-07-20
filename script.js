@@ -65,12 +65,12 @@ const PRIORITY_CLASSES = [
    ------------------------------------------------------------------------- */
 // Replace with your own Supabase project URL + publishable (anon) key.
 // Get these from Project Settings -> API in your Supabase dashboard.
-const SUPABASE_URL = 'https://ioqykthgbyyyckkncrpx.supabase.co/rest/v1/';
+const SUPABASE_URL = 'ioqykthgbyyyckkncrpx';
 const SUPABASE_KEY = 'sb_publishable_TeW3UAuQEJtjFi2E0hNArA_tu2DMBzZ';
 
 // Feedback is optional: if no real credentials are set, the app still runs —
 // the panel just shows a friendly message instead of throwing errors.
-const supabaseEnabled = SUPABASE_URL !== 'https://ioqykthgbyyyckkncrpx.supabase.co/rest/v1/' && SUPABASE_KEY !== 'sb_publishable_TeW3UAuQEJtjFi2E0hNArA_tu2DMBzZ';
+const supabaseEnabled = SUPABASE_URL !== 'ioqykthgbyyyckkncrpx' && SUPABASE_KEY !== 'sb_publishable_TeW3UAuQEJtjFi2E0hNArA_tu2DMBzZ';
 const supabaseClient = supabaseEnabled && window.supabase
   ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY)
   : null;
